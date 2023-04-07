@@ -26,7 +26,7 @@ const Quizs = () => {
                 </div>
                 <div>
 
-                <h1 className='text-3xl font-bold'>Total Quiz = <span className='text-blue-400'>{data.data.total}</span></h1>
+                <h1 className='text-3xl font-bold'>Total Quiz : <span className='text-blue-400'>{data.data.total}</span></h1>
 
                 </div>
 

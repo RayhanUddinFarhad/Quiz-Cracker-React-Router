@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-4xl font-bold">Test Your Programming Skill By Simply Answering Questions.</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn btn-primary w-52">Get Started</button>
                     </div>
                 </div>
             </div>

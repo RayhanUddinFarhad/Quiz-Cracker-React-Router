@@ -26,12 +26,12 @@ const Home = () => {
                 </p>
             </div>
 
-            <div className='lg:grid grid-cols-4 gap-3'>
+            <div className='lg:grid grid-cols-4 gap-3 space-y-5 lg:space-y-0'>
 
                 {
 
 
-                    data.data.map(datas => <Skills data={datas}></Skills>
+                    data.data.map(datas => <Skills key={datas.id} data={datas}></Skills>
                     )
                 }
 

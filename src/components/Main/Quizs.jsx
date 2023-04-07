@@ -40,7 +40,7 @@ const Quizs = () => {
                 {
 
 
-data.data.questions.map (data => <Qus data = {data}></Qus>)
+data.data.questions.map (data => <Qus key={data.id} data = {data}></Qus>)
                 }
 
 

@@ -12,7 +12,7 @@ const Skills = ({ data }) => {
 
 
             <div className="card  bg-base-100 shadow-xl">
-                <figure><img src={data.logo} alt="Shoes" /></figure>
+                <figure><img className='w-full' src={data.logo} alt="Shoes" /></figure>
                 <div className="card-body">
                     <p className='font-bold'>Total Quiz : {data.total}</p>
                     <h2 className="card-title">{data.name}</h2>
@@ -21,7 +21,7 @@ const Skills = ({ data }) => {
 </p>
                     <div className="card-actions justify-end">
 
-                        <Link to={`/Quiz/${data.id}`}> <button className="btn btn-primary">Start Now</button>
+                        <Link to={`/Quiz/${data.id}`}> <button className="btn btn-primary ">Start Now</button>
                         </Link>
                     </div>
                 </div>

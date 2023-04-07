@@ -1,3 +1,4 @@
+import { key } from 'localforage';
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -51,8 +52,8 @@ const Qus = ({ data }) => {
                     {
 
 
-                        data.options.map(Option => <div className="form-control">
-                            <label className=" space-x-5 cursor-pointer">
+                        data.options.map(Option => <div className="form-control ">
+                            <label className=" space-x-5 cursor-pointer ">
                                 <input onChange={handleRadioChange}
                                 value={Option}
 
